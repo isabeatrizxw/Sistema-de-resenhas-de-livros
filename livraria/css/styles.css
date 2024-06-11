@@ -1,0 +1,202 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5d1e7;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #9b296f; /* Cor rosa */
+    color: #fff;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+header .logo {
+    max-width: 100px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block; /* Mudança para inline-block */
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #e978be; /* Cor rosa */
+}
+
+nav ul li a:hover {
+    background-color: #777; /* Cor de hover mais escura */
+}
+
+main {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table th {
+    background-color: #f2f2f2;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 10px 15px;
+    background-color: #9b296f; /* Cor rosa */
+    color:#fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #777; /* Cor de hover mais escura */
+}
+
+footer {
+    background-color: #9b296f; /* Cor rosa */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Tamanho pequeno para as imagens dos livros */
+.book-image-small {
+    max-width: 100px;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Estilo para o header */
+header {
+    background-color: #9b296f;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header-left {
+    float: left;
+}
+
+.header-right {
+    float: right;
+}
+
+.header-left h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+}
+
+.header-left nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.header-left nav ul li {
+    display: inline-block; /* Mudança para inline-block */
+    margin-right: 20px;
+}
+
+.header-left nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.header-right .button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.header-right .button:hover {
+    background-color: #45a049;
+}
+
+/* Estilo para a lista de livros */
+.book-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.book-item {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.book-item:last-child {
+    border-bottom: none;
+}
